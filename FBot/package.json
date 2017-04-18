@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "description": "A simple Messenger Bot",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "author": "Corrado Canepari",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.2"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
   }
 }
