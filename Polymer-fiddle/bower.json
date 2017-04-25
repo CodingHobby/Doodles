@@ -1,0 +1,20 @@
+{
+  "name": "poly-fiddle",
+  "homepage": "https://github.com/CodingHobby/Fiddles",
+  "authors": [
+    "Corrado Canepari <caneparicorrado@outlook.it>"
+  ],
+  "description": "A polymer fiddle",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.9.1"
+  }
+}

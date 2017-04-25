@@ -1,0 +1,22 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<dom-module id="hello-world">
+	<style>
+		h1 {
+			color: lightskyblue;
+		}
+	</style>
+	<template>
+		<h1>{{firstName}}	{{lastName}}</h1>
+	</template>
+</dom-module>
+
+<script>
+	Polymer({
+		is: 'hello-world',
+
+		properties: {
+			firstName: String,
+			lastName: String
+		}
+	})
+</script>
