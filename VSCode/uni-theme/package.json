@@ -1,0 +1,27 @@
+{
+	"name": "uni-syntax",
+	"displayName": "UNI Syntax Theme",
+	"description": "A dark and colorful syntax theme",
+	"version": "0.0.2",
+	"publisher": "caneparicorrado",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"colorful",
+		"dark",
+		"syntax"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "uni-theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/uni-theme.tmTheme"
+			}
+		]
+	}
+}
