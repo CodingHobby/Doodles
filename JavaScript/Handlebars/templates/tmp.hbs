@@ -1,0 +1,13 @@
+<div class="todos">
+	<table>
+		{{#each todos}}
+		<div class="todo">
+			<tr>
+				<td>
+					<p key={{@index}}>{{this}}</p>
+				</td>
+			</tr>
+		</div>
+		{{/each}}
+	</table>
+</div>

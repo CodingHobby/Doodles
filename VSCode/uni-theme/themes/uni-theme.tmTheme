@@ -14,7 +14,7 @@
 				<key>background</key>
 				<string>#282C36</string>
 				<key>caret</key>
-				<string>#862d59</string>
+				<string>#DD1B1B</string>
 				<key>foreground</key> 	
 				<string>#e3e3e3</string>
 				<key>invisibles</key>
@@ -113,7 +113,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F2DE00</string>
+				<string>#23CA4A</string>
 			</dict>
 		</dict>
 		<dict>
