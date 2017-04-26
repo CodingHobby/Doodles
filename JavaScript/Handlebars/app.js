@@ -16,8 +16,3 @@ function createHTML({ todos }) {
 createHTML({
 	todos
 })
-
-Handlebars.registerHelper('removeTodo', function(key) {
-	todos.splice(key, 1)
-	console.log(todos)
-})
