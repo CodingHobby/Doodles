@@ -1,0 +1,7 @@
+# Me vs Design Patterns
+
+As you may or may not know, I recently made a simple Pub/Sub library, which I found very cool. I then decided to dive into other design patterns. I was already familiar with functional programming principles, since I used both Haskell and did functional "stuff" in JavaScript, but I'd define that as more of a "paradigm"... Anyway, I'm also familiar with declarative programming, so I decided to dive into **REACTIVE** programming, the big trend of the moment! I initially wanted to use RxJs, but I then opted for bacon, since I found it much easier to understand (although it does require JQuery, which is, in my eyes, a big point against it).
+
+Also, you might be "angry" because I usually make really small examples for stuff. That's the whole point: making something utterly stupid just because, for once, I want to test out the "shiny new technology" without feeling guilty of wasting too much time on it.
+
+This was cool, I guess, although I find reactive programming and streams as a bit of a heavy thing to "drag" into a project, but maybe it's just because I used them for such a silly thing... If I used them for some enterprise-level application, maybe I'd be able to appreciate them a bit more... Either way, this was fun!
