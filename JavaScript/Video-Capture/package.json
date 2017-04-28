@@ -1,0 +1,21 @@
+{
+  "name": "video-capturing",
+  "version": "0.0.0",
+  "description": "A video capturing example",
+  "main": "server.js",
+  "author": "Corrado Canepari <caneparicorrado@outlook.it>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "webpack --watch"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "mare-dom": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "webpack": "^2.4.1"
+  }
+}
