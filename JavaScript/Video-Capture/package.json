@@ -11,8 +11,7 @@
     "build": "webpack --watch"
   },
   "dependencies": {
-    "express": "^4.15.2",
-    "mare-dom": "^1.2.0"
+    "express": "^4.15.2"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
