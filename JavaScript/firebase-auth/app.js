@@ -4,6 +4,7 @@ const firebase = require('firebase'),
 	database = firebase.database()
 
 
+
 const emailTxt = document.getElementById('email'),
 	passwdTxt = document.getElementById('password'),
 	loginBtn = document.getElementById('btn-login'),
@@ -16,7 +17,6 @@ const emailTxt = document.getElementById('email'),
 firebase.auth().onAuthStateChanged(user => {
 	if (user) {
 		console.log('logged in')
-
 		logoutBtn.addEventListener('click', function (e) {
 			const auth = firebase.auth()
 			auth.signOut()
@@ -47,7 +47,12 @@ firebase.auth().onAuthStateChanged(user => {
 			}
 		})
 
+		/* This is important, since otherwise we'd still have a listener which pushes data to the old user UID */
+		recreateNode(document.querySelector('#add-word-btn'))
+
 		addWordBtn.addEventListener('click', function (e) {
+			e.preventDefault()
+			console.log('click')
 			const wordValue = word.value
 			if (wordValue) {
 				words.push(wordValue)
@@ -63,7 +68,7 @@ firebase.auth().onAuthStateChanged(user => {
 			const auth = firebase.auth()
 
 			auth.signInWithEmailAndPassword(email, passwd)
-				.catch(e => console.error(e))
+				.catch(err => alert(err))
 		})
 
 		signupBtn.addEventListener('click', function (e) {
@@ -75,9 +80,16 @@ firebase.auth().onAuthStateChanged(user => {
 				.catch(e => console.error(e))
 		})
 
-
 		document.getElementById('login').classList.remove('hidden')
 		document.getElementById('onceLoggedIn').classList.add('hidden')
 		console.log('logged out')
 	}
 })
+
+function recreateNode(el) {
+	var clone = el.cloneNode();
+	while (el.firstChild) {
+		clone.appendChild(el.lastChild);
+	}
+	el.parentNode.replaceChild(clone, el);
+}
