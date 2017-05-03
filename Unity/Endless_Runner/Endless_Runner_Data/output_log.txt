@@ -1,0 +1,28 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730   (ID=0x1287)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+    Driver:   10.18.13.6260
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.098 seconds
+Platform assembly: C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\corrado\Documents\Programming\Doodles\Unity\Endless_Runner\Endless_Runner_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at -1680,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.038020 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2310 -> priority: 1 
+  Thread -> id: 4e98 -> priority: 1 
