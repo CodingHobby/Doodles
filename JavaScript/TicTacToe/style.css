@@ -1,0 +1,25 @@
+.grid {
+	width: 456px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell {
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.cell:hover {
+	background-color: lightgreen;
+}
+
+#winner {
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
