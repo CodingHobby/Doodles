@@ -19,7 +19,8 @@ public class BulletThermalDetonator : MonoBehaviour {
 			Explode();
 			collision.gameObject.tag = "Untagged";
 			Destroy(collision.gameObject);
-			Instantiate(fireEffect, new Vector3(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y, collision.gameObject.transform.position.z), Quaternion.identity);
+			GameObject explosion = (GameObject)Instantiate(fireEffect, new Vector3(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y, collision.gameObject.transform.position.z), Quaternion.identity);
+			Destroy(explosion.gameObject, 4f);
 		}
 	}
 
