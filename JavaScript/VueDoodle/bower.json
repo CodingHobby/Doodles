@@ -1,0 +1,21 @@
+{
+  "name": "vue_doodle",
+  "homepage": "https://github.com/codinghobby/doodles",
+  "authors": [
+    "Corrado Canepari <caneparicorrado@outlook.it>"
+  ],
+  "description": "A doodle for Vue.js",
+  "main": "index.html",
+  "keywords": [
+    "vue"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
