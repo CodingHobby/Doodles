@@ -1,0 +1,22 @@
+<div class="home">
+	<h1>TODOs</h1>
+
+	<form method="POST" action="/add">
+		<input class="addTodo" name="todo"/>
+	</form>
+
+	<div class="todos">
+		{{#each todos}}
+			<div class="todo">{{this}}</div>
+		{{/each}}
+	</div>
+</div>
+
+<style>
+	.todo {
+		background-color: #eee;
+		font-size: 30px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+</style>

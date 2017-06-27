@@ -1,0 +1,21 @@
+{
+	"name": "hapi-doodle",
+	"version": "0.0.0",
+	"description": "A test for the hapi library",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"author": "Corrado Canepari",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^1.11.0"
+	},
+	"dependencies": {
+		"firebase": "^4.1.3",
+		"handlebars": "^4.0.10",
+		"hapi": "^16.4.3",
+		"vision": "^4.1.1"
+	}
+}
