@@ -1,9 +1,0 @@
-{
-  "name": "encryptr",
-  "version": "0.0.0",
-  "description": "JavaScript encryption app",
-  "main": "cryptr.js",
-  "repository": "https://www.github.com/codinghobby/doodles.git",
-  "author": "Corrado Canepari <caneparicorrado@outlook.it>",
-  "license": "MIT"
-}

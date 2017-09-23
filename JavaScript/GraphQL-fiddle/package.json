@@ -1,0 +1,8 @@
+{
+  "name": "graphql-fiddle",
+  "version": "0.0.0",
+  "description": "A demo for graphql",
+  "main": "index.js",
+  "author": "Corrado Canepari",
+  "license": "MIT"
+}

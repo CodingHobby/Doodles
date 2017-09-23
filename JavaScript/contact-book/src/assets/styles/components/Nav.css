@@ -1,0 +1,13 @@
+nav {
+	width: 100%;
+	background-color: #eee;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	min-height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	margin: none;
+	padding: none;
+}
